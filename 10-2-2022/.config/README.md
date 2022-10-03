@@ -13,3 +13,4 @@
 
 #### Using slightly modified [sheepy0125's](https://github.com/sheepy0125) polybar config
 #### Using [adi1090x](https://github.com/adi1090x/rofi) rofi themes for powermenu
+#### Fonts that are being used are `FontAwesome`, `Siji`, `Unifont`, and `Google Fonts (Specifically Roboto)`.
