@@ -9,6 +9,7 @@
 #### `brightnessctl` to control my brightness
 #### `copyq` as clipboard manager
 #### `flameshot` to take screenshots
+#### `nitrogen` as background manager
 #### `nm-applet or network-manager-applet` for dealing with internet
 
 #### Using slightly modified [sheepy0125's](https://github.com/sheepy0125) polybar config
