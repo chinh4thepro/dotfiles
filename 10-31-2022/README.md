@@ -1,4 +1,4 @@
-# 10-2-2022
+# 10-31-2022
 
 #### Things I have installed:
 #### `i3` as window manager
