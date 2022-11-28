@@ -1,4 +1,4 @@
-# 10-2-2022
+# 11-22-2022
 
 #### Things I have installed:
 #### `hyprland` as window manager
