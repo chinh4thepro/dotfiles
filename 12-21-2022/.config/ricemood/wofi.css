@@ -1,0 +1,55 @@
+/* ::root{ */
+/*     --accent: #5291e2; */
+/*     --dark: #383C4A; */
+/*     --light: #7C818C; */
+/*     --ld: #404552; */
+/*     --dl: #4B5162 */
+/*     --white: white; */
+/* } */
+
+*{
+    font-family: monospace;
+}
+
+window {
+    background-color: ^r@V>l(60)^;
+}
+
+#input {
+    margin: 5px;
+    border-radius: 0px;
+    border: none;
+    border-bottom: 3px solid black;
+    background-color: ^r@DM>da(0.1)^;
+    color: white;
+}
+
+#inner-box {
+    background-color: ^r@DM>da(0.1)^;
+
+}
+
+#outer-box {
+    margin: 5px;
+    padding:20px;
+    background-color: ^r@DM^;
+}
+
+#scroll {
+}
+
+#text {
+padding: 5px;
+color: white;
+}
+
+#entry:nth-child(even){
+    background-color: ^r@DM>da(0.2)^;
+}
+
+#entry:selected {
+    background-color: ^r@V>ne^;
+}
+
+#text:selected {
+}

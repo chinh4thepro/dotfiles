@@ -1,0 +1,62 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, Fantasque Sans Mono;
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: rgba(15, 53, 64, 0.75);
+    color: #E77E90;
+    transition-property: background-color;
+    transition-duration: .5s; 
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#window
+{
+    padding: 0 10px;
+    margin: 3px 0;
+    color: #E77E90;
+    border-radius: 5px;
+}
+
+#workspaces
+{
+	padding: 0 5px;
+	margin: 3px 0;
+	color: #E77E90;
+	border-radius: 5px;
+}
+
+#clock,
+#window,
+#workspaces,
+#battery,
+#cpu,
+#memory,
+#disk,
+#backlight,
+#network,
+#pulseaudio,
+#temperature,
+#tray
+{
+    background-color: #284452;
+    color: #E77E90;
+}
+
+#network.disconnected {
+    background-color: #f53c3c;
+    color: #E77E90;
+}
+
