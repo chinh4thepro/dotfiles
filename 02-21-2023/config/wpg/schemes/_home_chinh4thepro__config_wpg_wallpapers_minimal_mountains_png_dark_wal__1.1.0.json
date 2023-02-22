@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chinh4thepro/.config/wpg/wallpapers/minimal_mountains.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0e0e0e",
+        "foreground": "#f3f3f3",
+        "cursor": "#f3f3f3"
+    },
+    "colors": {
+        "color0": "#0e0e0e",
+        "color1": "#979797",
+        "color2": "#A8A8A8",
+        "color3": "#B8B8B8",
+        "color4": "#CCCCCC",
+        "color5": "#E8E8E8",
+        "color6": "#F5F5F5",
+        "color7": "#f3f3f3",
+        "color8": "#aaaaaa",
+        "color9": "#979797",
+        "color10": "#A8A8A8",
+        "color11": "#B8B8B8",
+        "color12": "#CCCCCC",
+        "color13": "#E8E8E8",
+        "color14": "#F5F5F5",
+        "color15": "#f3f3f3"
+    }
+}

@@ -1,0 +1,47 @@
+@import 'colors.css' ;
+* {
+    font-family: FontAwesome, Fantasque Sans Mono;
+    font-size: 14px;
+}
+
+window#waybar {
+    background-color: @color8;
+    color: @color15;
+    transition-property: background-color;
+    transition-duration: .5s; 
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#tray,
+#mode,
+#window,
+#workspaces,
+#workspaces button
+{
+    margin: 3px 0;
+    color: @color15;
+}
+
+#clock,
+#window,
+#workspaces button,
+#battery,
+#cpu,
+#memory,
+#disk,
+#backlight,
+#network,
+#pulseaudio,
+#temperature,
+#tray
+{
+    color: @color15;
+}

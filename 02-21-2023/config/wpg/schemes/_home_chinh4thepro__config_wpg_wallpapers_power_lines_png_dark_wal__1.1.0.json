@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chinh4thepro/.config/wpg/wallpapers/power_lines.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#3a2525",
+        "foreground": "#ffffe8",
+        "cursor": "#ffffe8"
+    },
+    "colors": {
+        "color0": "#3a2525",
+        "color1": "#E7A66C",
+        "color2": "#D9A493",
+        "color3": "#F8C46A",
+        "color4": "#A37788",
+        "color5": "#C57E85",
+        "color6": "#B3908E",
+        "color7": "#f2e0ca",
+        "color8": "#583838",
+        "color9": "#ffd676",
+        "color10": "#ffc9a7",
+        "color11": "#ffff72",
+        "color12": "#e688ac",
+        "color13": "#ff8e9c",
+        "color14": "#fda8a3",
+        "color15": "#ffffe8"
+    }
+}

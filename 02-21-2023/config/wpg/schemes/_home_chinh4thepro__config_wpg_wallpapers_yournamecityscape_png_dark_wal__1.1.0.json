@@ -1,0 +1,28 @@
+{
+    "wallpaper": "/home/chinh4thepro/.config/wpg/wallpapers/yournamecityscape.png",
+    "alpha": "100",
+
+    "special": {
+        "background": "#0f1319",
+        "foreground": "#faffff",
+        "cursor": "#faffff"
+    },
+    "colors": {
+        "color0": "#0f1319",
+        "color1": "#907165",
+        "color2": "#596A86",
+        "color3": "#AC8C74",
+        "color4": "#535F81",
+        "color5": "#68768D",
+        "color6": "#748BA0",
+        "color7": "#c3c8ca",
+        "color8": "#212a38",
+        "color9": "#cb8b73",
+        "color10": "#6586bc",
+        "color11": "#f2b384",
+        "color12": "#5e74b5",
+        "color13": "#7795c7",
+        "color14": "#84b5e1",
+        "color15": "#faffff"
+    }
+}

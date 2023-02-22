@@ -1,0 +1,42 @@
+2023/02/20-17:23:38.153 c21 Reusing MANIFEST /home/chinh4thepro/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2023/02/20-17:23:38.153 c21 Recovering log #791
+2023/02/20-17:23:38.153 c21 Reusing old log /home/chinh4thepro/.config/discord/Local Storage/leveldb/000791.log 
+2023/02/20-17:24:38.759 c36 Level-0 table #795: started
+2023/02/20-17:24:38.764 c36 Level-0 table #795: 55079 bytes OK
+2023/02/20-17:24:38.769 c36 Delete type=0 #791
+2023/02/20-17:25:38.757 c36 Level-0 table #797: started
+2023/02/20-17:25:38.778 c36 Level-0 table #797: 1408635 bytes OK
+2023/02/20-17:25:38.784 c36 Delete type=0 #794
+2023/02/20-18:21:15.776 c36 Level-0 table #799: started
+2023/02/20-18:21:15.781 c36 Level-0 table #799: 55095 bytes OK
+2023/02/20-18:21:15.787 c36 Delete type=0 #796
+2023/02/20-18:21:15.787 c36 Compacting 4@0 + 1@1 files
+2023/02/20-18:21:15.821 c36 Generated table #800@0: 107 keys, 2812433 bytes
+2023/02/20-18:21:15.821 c36 Compacted 4@0 + 1@1 files => 2812433 bytes
+2023/02/20-18:21:15.826 c36 compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/02/20-18:21:15.827 c36 Delete type=2 #795
+2023/02/20-18:21:15.827 c36 Delete type=2 #790
+2023/02/20-18:21:15.827 c36 Delete type=2 #797
+2023/02/20-18:21:15.827 c36 Delete type=2 #799
+2023/02/20-18:21:15.827 c36 Delete type=2 #792
+2023/02/20-20:36:40.191 65b3 Level-0 table #802: started
+2023/02/20-20:36:40.200 65b3 Level-0 table #802: 51954 bytes OK
+2023/02/20-20:36:40.213 65b3 Delete type=0 #798
+2023/02/20-21:03:44.595 65b3 Level-0 table #804: started
+2023/02/20-21:03:44.606 65b3 Level-0 table #804: 45809 bytes OK
+2023/02/20-21:03:44.617 65b3 Delete type=0 #801
+2023/02/20-22:22:50.342 6e6f Level-0 table #806: started
+2023/02/20-22:22:50.350 6e6f Level-0 table #806: 19356 bytes OK
+2023/02/20-22:22:50.362 6e6f Delete type=0 #803
+2023/02/20-22:37:43.962 6e6f Level-0 table #808: started
+2023/02/20-22:37:43.980 6e6f Level-0 table #808: 1408547 bytes OK
+2023/02/20-22:37:43.992 6e6f Delete type=0 #805
+2023/02/20-22:37:43.993 6e6f Compacting 4@0 + 1@1 files
+2023/02/20-22:37:44.026 6e6f Generated table #809@0: 107 keys, 2813120 bytes
+2023/02/20-22:37:44.026 6e6f Compacted 4@0 + 1@1 files => 2813120 bytes
+2023/02/20-22:37:44.037 6e6f compacted to: files[ 0 2 1 0 0 0 0 ]
+2023/02/20-22:37:44.037 6e6f Delete type=2 #802
+2023/02/20-22:37:44.037 6e6f Delete type=2 #800
+2023/02/20-22:37:44.037 6e6f Delete type=2 #804
+2023/02/20-22:37:44.037 6e6f Delete type=2 #806
+2023/02/20-22:37:44.037 6e6f Delete type=2 #808
