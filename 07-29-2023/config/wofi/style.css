@@ -1,0 +1,45 @@
+@import '.config/wofi/colors.css';
+@import '.config/wofi/colors-rgba.css';
+
+* {
+    font-family: FontAwesome, Fantasque Sans Mono;
+    font-size: 14px;
+}
+
+#window {
+    margin: 5px;
+    border: 2px solid @color5;
+    border-radius: 5px;
+    background-color: @background-rgba;
+}
+
+#outer-box{
+    margin-bottom: 13px;
+}
+
+#inner-box {
+    padding: 0px 10px;
+}
+
+#entry {
+    border-radius: 5px;
+    color: @foreground;
+}
+
+#entry:selected {
+    background-color: @color2;
+    border: 2px solid @color5;
+    color: @foreground;
+}
+
+#input {
+    margin: 10px;
+    padding: 10px 10px;
+    border: 2px solid @color5;
+    background-color: @color2;
+    color: @foreground;
+}
+
+#img {
+    margin-right: 5px;
+}

@@ -1,0 +1,19 @@
+# Global
+max-history=5
+sort=-time
+
+# Style
+font=Fantasque Sans Mono
+border-radius=7
+icons=1
+text-alignment=left
+anchor=top-right
+
+# Notifcation properties
+default-timeout=3000
+max-visible=5
+
+# Colors
+border-color=#D6709E
+background-color=#0A0C1BBF
+text-color=#adc7e0

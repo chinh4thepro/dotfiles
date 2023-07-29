@@ -1,0 +1,15 @@
+2023/07/23-11:42:11.919 3be6 Reusing MANIFEST /home/chinh4thepro/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
+2023/07/23-11:42:11.919 3be6 Recovering log #7
+2023/07/23-11:42:11.920 3be6 Reusing old log /home/chinh4thepro/.config/discord/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/000007.log 
+2023/07/23-11:43:35.324 3be5 Level-0 table #12: started
+2023/07/23-11:43:35.328 3be5 Level-0 table #12: 37286 bytes OK
+2023/07/23-11:43:35.335 3be5 Delete type=0 #7
+2023/07/23-11:43:35.335 3be5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2023/07/23-11:43:35.336 3be5 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf06\xa96\x98xB\x00\x03\x00\x00\x00\x00\x00\x80@@' @ 999 : 1
+2023/07/23-11:43:35.336 3be5 Compacting 1@1 + 1@2 files
+2023/07/23-11:43:35.339 3be5 Generated table #13@1: 41 keys, 1092 bytes
+2023/07/23-11:43:35.339 3be5 Compacted 1@1 + 1@2 files => 1092 bytes
+2023/07/23-11:43:35.345 3be5 compacted to: files[ 0 0 1 0 0 0 0 ]
+2023/07/23-11:43:35.345 3be5 Delete type=2 #9
+2023/07/23-11:43:35.345 3be5 Delete type=2 #12
+2023/07/23-11:43:35.345 3be5 Manual compaction at level-1 from '\x00\x02\x01\x1f\x04\x03\x01\x03\x00N\x00E\x00W\x03\x00\x00\x00\x00\x00\x00L@\x03\x00\xf06\xa96\x98xB\x00\x03\x00\x00\x00\x00\x00\x80@@' @ 999 : 1 .. (end); will stop at (end)

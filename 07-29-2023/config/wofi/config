@@ -1,0 +1,11 @@
+# Prompt
+prompt=
+
+# Settings
+show=drun
+no_actions=true
+allow_images=true
+insensitive=true
+hide_scroll=true
+parse_search=true
+image_size=28
