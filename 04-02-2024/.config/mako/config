@@ -1,0 +1,19 @@
+# Global
+max-history=5
+sort=-time
+
+# Style
+font=FantasqueSansM Nerd Font 12
+border-radius=3
+icons=1
+text-alignment=left
+anchor=top-right
+
+# Notifcation properties
+default-timeout=3000
+max-visible=5
+
+# Colors
+border-color=#6f94a8
+background-color=#191917BF
+text-color=#c5c5c5

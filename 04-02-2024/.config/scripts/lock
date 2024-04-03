@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+
+source "$HOME/.cache/wal/colors.sh"
+
+swaylock \
+  --image "$HOME/wallpaper" \
+  --daemonize \
+  --effect-blur 3x10 \
+  --indicator-radius 100 \
+  --indicator-thickness 20 \
+  --inside-color "$background" \
+  --inside-clear-color "$background" \
+  --inside-ver-color "$background" \
+  --inside-wrong-color "$background" \
+  --key-hl-color "$color13" \
+  --bs-hl-color "$color2" \
+  --ring-color "$color5" \
+  --ring-clear-color "$color13" \
+  --ring-wrong-color "$color5" \
+  --ring-ver-color "$color3" \
+  --line-uses-ring \
+  --line-color "$background" \
+  --text-color "$foreground" \
+  --text-clear-color "$color5" \
+  --text-wrong-color "$color5" \
+  --text-ver-color "$color4" \
+  --separator-color 00000000 \
+  --grace 2 \
+  --grace-no-mouse \
+  --grace-no-touch \
+  --fade-in 0.125 \
+  --indicator \
+  --indicator-idle-visible \
+  --clock \
+  --show-keyboard-layout \
+  --font "fantasque sans m Nerdfont" \
+  --font-size 24

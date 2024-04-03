@@ -1,0 +1,56 @@
+#!/usr/bin/env bash
+
+# Gsettings
+gsettings set org.gnome.desktop.interface cursor-theme Bibata-Modern-Classic
+
+# Wallpaper + colors
+WALLPAPER="$HOME/wallpaper.png"
+
+wal -c # Delete Pywal cache
+wal -i $WALLPAPER -a 75 --cols16 --backend haishoku --saturate 0.25
+
+swww img $WALLPAPER
+ln -sf $WALLPAPER /home/$USER/wallpaper
+
+# Copy over colors
+
+## Kitty
+cp $HOME/.cache/wal/colors-kitty.conf $HOME/.config/kitty/kitty-color.conf
+
+## Waybar
+cp $HOME/.cache/wal/colors-generic.css $HOME/.config/waybar/colors.css
+cp $HOME/.cache/wal/colors-generic-rgba.css $HOME/.config/waybar/colors-rgba.css
+
+## Wofi
+cp $HOME/.cache/wal/colors-generic.css $HOME/.config/wofi/colors.css
+cp $HOME/.cache/wal/colors-generic-rgba.css $HOME/.config/wofi/colors-rgba.css
+
+## Hyprland
+cp $HOME/.cache/wal/colors-hyprland.conf $HOME/.config/hypr/colors.conf
+
+## Spicetify (spotify)
+cp $HOME/.cache/wal/colors-spicetify.ini $HOME/.config/spicetify/Themes/pywal/colors.ini
+
+## Mako
+. "${HOME}/.cache/wal/colors.sh"
+conffile="$HOME/.config/mako/config"
+declare -A colors
+colors=(
+    ["background-color"]="${background}BF"
+    ["text-color"]="$foreground"
+    ["border-color"]="$color5"
+)
+for color_name in "${!colors[@]}"; do
+  sed -i "0,/^$color_name.*/{s//$color_name=${colors[$color_name]}/}" $conffile
+done
+
+# Reload gui stuff
+pywalfox update
+makoctl reload
+if pgrep -x "waybar" > /dev/null; then
+	killall waybar
+	sleep 0.1
+	waybar &!
+else
+	waybar &!
+fi

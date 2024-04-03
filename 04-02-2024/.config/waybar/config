@@ -1,0 +1,138 @@
+{
+    // Other settings
+    "layer": "top", // Waybar at top layer
+    "position": "bottom", // Position Waybar at the bottom
+    "height": 60, // Waybar height
+    "spacing": 5, // Gaps between modules
+    	// Margins
+    "margin-top": 0,
+    "margin-bottom": 10,
+    "margin-left": 10,
+    "margin-right": 10,
+
+    // Modules Layout
+    "modules-left": ["hyprland/window", "wlr/taskbar"],
+    "modules-center": ["hyprland/workspaces"],
+    "modules-right": ["pulseaudio", "clock", "network", "backlight", "battery", "tray"],
+    
+    // Modules configuration
+    "hyprland/workspaces": {
+        "active-only": false,
+        "all-outputs": true,
+        "disable-scroll": true,
+        "show-special": false,
+        "sort-by-number": true,
+        "persistent-workspaces": {
+            "*": 10,
+        },
+    },
+
+    // Tray
+    "tray": {
+        "icon-size": 16,
+        "spacing": 10
+    },
+
+    // Clock
+    "clock": {
+        // "timezone": "America/New_York",
+        "format": "  {:%Y-%m-%d    %H:%M}"
+    },
+
+    // Cpu stats
+    "cpu": {
+        "format": "  {usage}%",
+        "tooltip": false
+    },
+
+    // Memory stats
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}small></tt>",
+    "memory": {
+        "format": "  {}%"
+    },
+
+    // CPU temps
+    "temperature": {
+        // "thermal-zone": 2,
+        // "hwmon-path": "/sys/class/hwmon/hwmon2/temp1_input",
+        "critical-threshold": 80,
+        "format": "{icon} {temperatureC}°C",
+        "format-icons": [""]
+    },
+
+    // Backlight
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""]
+    },
+
+    // Battery percentage
+    "battery": {
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "{icon}  {capacity}%",
+        "format-charging": "  {capacity}%",
+        "format-plugged": "  {capacity}%",
+        "format-alt": "{icon}  {time}",
+        "format-icons": ["", "", "", "", ""]
+    },
+
+    // Network info
+    "network": {
+        "format-wifi": "  {essid}",
+        "format-ethernet": "{ipaddr}/{cidr} ",
+        "tooltip-format": "{ifname} via {gwaddr} ",
+        "format-linked": "{ifname} (No IP) ",
+        "format-disconnected": "Disconnected ⚠",
+        "format-alt": "{ifname}: {ipaddr}/{cidr}"
+    },
+
+    // Audio (via pulseaudio/pipewire-pulse)
+    "pulseaudio": {
+        // "scroll-step": 1, // %, can be a float
+        "format": "{icon}  {volume}%  {format_source}",
+        "format-bluetooth": "{volume}% {icon} {format_source}",
+        "format-bluetooth-muted": " {icon} {format_source}",
+        "format-muted": " {format_source}",
+        "format-source": "  {volume}%",
+        "format-source-muted": "",
+        "format-icons": {
+            "headphone": "",
+            "hands-free": "",
+            "headset": "",
+            "phone": "",
+            "portable": "",
+            "car": "",
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+
+    // Current Window
+    "hyprland/window": {
+        "format": "{}",
+        "max-length": 50,
+        "separate-outputs": true,
+        "rewrite": {
+            "": "~",
+        },
+    },
+
+    // Separator
+    "custom/separator": {
+        "format": "  ",
+    },
+
+    // "Dock"
+    "wlr/taskbar":{
+        "format":"{icon}",
+        "icon-size": 16,
+        "icon-theme": "Adwaita",
+        "on-click": "activate",
+        "on-click-middle": "close",
+        "on-click-right": "minimize"
+    },
+}
+

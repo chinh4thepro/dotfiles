@@ -1,0 +1,76 @@
+@import 'colors.css';
+@import 'colors-rgba.css';
+
+* {
+    font-family: FontAwesome, fantasque sans m Nerdfont;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: @background-rgba;
+    color: @foreground;
+    margin: 5px;
+    border: 2px solid @foreground;
+    border-radius: 5px;
+}
+
+button {
+    border: 0px;
+    border-radius: 0px;
+}
+
+#workspaces button {
+    padding: 0px 5px;
+    margin: 17px 5px;
+    border-radius: 5px;
+    color: @foreground;
+    background-color: @foreground;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.empty {
+    color: @color5;
+    background-color: @color5;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.active {
+    color: @foreground;
+    background-color: @foreground;
+    border-radius: 5px;
+    min-width: 50px;
+    background-size: 100% 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+#workspaces button.urgent {
+    color: @color14;
+    background-color: @color14;
+    transition: all 0.3s ease-in-out;
+}
+
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#tray,
+#window,
+#mpd {
+    padding: 0 10px;
+    color: @foreground;
+}
+ 
+.modules-left > widget:first-child > * {
+    margin-left: 5px;
+}
+
+.modules-right > widget:last-child > * {
+    margin-right: 5px;
+}
