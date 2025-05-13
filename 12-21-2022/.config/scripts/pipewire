@@ -1,5 +1,0 @@
-#!/bin/zsh
-
-killall pipewire &!
-killall waybar &! 
-gentoo-pipewire-launcher &! 
