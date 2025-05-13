@@ -1,3 +1,0 @@
-#!/bin/bash
-$HOME/.config/scripts/update
-doas shutdown -P now
