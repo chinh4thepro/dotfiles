@@ -1,4 +1,0 @@
-#!/bin/zsh
-
-killall pipewire &! 
-gentoo-pipewire-launcher &! 
