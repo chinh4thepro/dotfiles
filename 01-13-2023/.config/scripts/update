@@ -1,6 +1,0 @@
-#!/bin/bash
-
-echo "syncing repositories, please wait..."
-doas eix-sync
-echo "updating please wait..."
-doas emerge -uqvDN @world
