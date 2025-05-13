@@ -1,5 +1,0 @@
-#!/bin/bash
-
-eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh)
-export SSH_AUTH_SOCK
-bash -c "/usr/libexec/polkit-gnome-authentication-agent-1"
