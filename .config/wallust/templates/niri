@@ -1,0 +1,18 @@
+layout {
+    focus-ring {
+        active-color "{{foreground}}"
+        inactive-color "{{color2}}"
+        urgent-color "{{color13}}"
+    }
+
+    border {
+        active-color "{{foreground}}"
+        inactive-color "{{color2}}"
+        urgent-color "{{color13}}"
+    }
+
+    shadow {
+      color "{{background}}{{alpha | alpha_hexa}}"
+    }
+}
+

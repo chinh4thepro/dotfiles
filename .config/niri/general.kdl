@@ -1,0 +1,11 @@
+// no client side decorations
+prefer-no-csd
+
+// screenshot path if saved
+screenshot-path "~/Pictures/Screenshots/%Y-%m-%d %H-%M-%S.png"
+
+// "cheatsheet"
+hotkey-overlay {
+    // Uncomment this line to disable the "Important Hotkeys" pop-up at startup.
+    // skip-at-startup
+}

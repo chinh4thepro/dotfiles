@@ -1,0 +1,35 @@
+# Global section - values below can be overwritten by command line flags
+
+# full - resized - wal - thumb -  fastresize - kmeans
+backend = "fastresize"
+
+# What color space to use to produce and select the most prominent colors:
+# lab - labmixed - lch - lchmixed
+color_space = "lab"
+
+# Use the most prominent colors in a way that makes sense, a scheme color palette:
+# dark - dark16 - darkcomp - darkcomp16
+# light - light16 - lightcomp - lightcomp16
+# harddark - harddark16 - harddarkcomp - harddarkcomp16
+# softdark - softdark16 - softdarkcomp - softdarkcomp16
+# softlight - softlight16 - softlightcomp - softlightcomp16
+palette = "dark16"
+
+check_contrast = true
+
+# Color saturation, between [1% and 100%] (OPTIONAL, disabled by default)
+# usually something higher than 50 increases the saturation and below
+# decreases it (on a scheme with strong and vivid colors)
+# saturation = 15
+
+alpha = 75
+
+[templates]
+foot = { template = 'foot', target = '~/.config/foot/colors.ini' }
+gtk3 = { template = 'gtk', target = '~/.config/gtk-3.0/gtk.css' }
+gtk4 = { template = 'gtk', target = '~/.config/gtk-4.0/gtk.css' }
+hyprland = { template = 'hyprland', target = '~/.config/hypr/colors.conf' }
+hyprpaper = { template = 'hyprpaper', target = '~/.config/hypr/hyprpaper.conf' }
+niri = { template = 'niri', target = '~/.config/niri/colors.kdl' }
+quickshell = { template = 'quickshell', target = '~/.config/quickshell/globals/Colors.qml' }
+zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }

@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+
+eval $(gnome-keyring-daemon --components=gpg,pkcs11,secrets)
+
+/usr/lib64/polkit-gnome/polkit-gnome-authentication-agent-1 &

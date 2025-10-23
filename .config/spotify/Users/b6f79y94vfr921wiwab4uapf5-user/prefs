@@ -1,0 +1,7 @@
+audio.hifi_upgraded=true
+audio.sync_bitrate_enumeration=5
+audio.play_bitrate_non_metered_migrated=true
+audio.allow_downgrade=false
+audio.normalize_v2=false
+audio.play_bitrate_non_metered_enumeration=5
+audio.play_bitrate_enumeration=3
