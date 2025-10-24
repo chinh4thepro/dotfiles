@@ -19,3 +19,6 @@ _darcs
 ^/README.*
 ^/LICENSE.*
 ^/COPYING
+
+^/color*
+ zed/themes/wallust.json

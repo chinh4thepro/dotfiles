@@ -33,3 +33,4 @@ hyprpaper = { template = 'hyprpaper', target = '~/.config/hypr/hyprpaper.conf' }
 niri = { template = 'niri', target = '~/.config/niri/colors.kdl' }
 quickshell = { template = 'quickshell', target = '~/.config/quickshell/globals/Colors.qml' }
 zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
+zed = { template = 'zed', target = '~/.config/zed/themes/wallust.json' }
