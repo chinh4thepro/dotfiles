@@ -72,7 +72,7 @@ body {
     /* styling options */
     --custom-spotify-bar: on; /* off: default, on: custom text-like spotify progress bar */
     --ascii-titles: on; /* off: default, on: use ascii font for titles at the start of a channel */
-    --ascii-loader: system24; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
+    --ascii-loader: cats; /* off: default, system24: use system24 ascii loader, cats: use cats loader */
 
     /* panel labels */
     --panel-labels: on; /* off: default, on: add labels to panels */
@@ -89,7 +89,7 @@ body {
     --text-1: {{foreground | darken(0.25)}}; /* other normally white text */
     --text-2: {{foreground | darken(0.15)}}; /* headings and important text */
     --text-3: {{foreground}}; /* normal text */
-    --text-4: hsl(220, 20%, 67%); /* icon buttons and channels */
+    --text-4: {{background | lighten(0.67)}}; /* icon buttons and channels */
     --text-5: {{background | lighten(0.5)}}; /* muted channels/chats and timestamps */
 
     /* background and dark colors */
@@ -97,9 +97,9 @@ body {
     --bg-2: {{background | darken(0.15)}}; /* dark buttons */
     --bg-3: {{background | darken(0.1)}}; /* spacing, secondary elements */
     --bg-4: {{background}}; /* main background color */
-    --hover: hsla(220, 20%, 50%, 0.1); /* channels and buttons when hovered */
-    --active: hsla(220, 20%, 50%, 0.2); /* channels and buttons when clicked or selected */
-    --active-2: hsla(220, 20%, 50%, 0.3); /* extra state for transparent buttons */
+    --hover: {{background | darken(0.5)}}{{ 10 | hexa}}; /* channels and buttons when hovered */
+    --active: {{background | darken(0.5)}}{{ 20 | hexa}}; /* channels and buttons when clicked or selected */
+    --active-2: {{background | darken(0.5)}}{{ 30 | hexa}}; /* extra state for transparent buttons */
     --message-hover: hsla(0, 0%, 0%, 0.1); /* messages when hovered */
 
     /* accent colors */
