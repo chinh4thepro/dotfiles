@@ -21,7 +21,9 @@ _darcs
 ^/COPYING
 
 ^/color*
+
 zed/themes/wallust.json
+
 spicetify/CustomApps
 spicetify/Extensions
 spicetify/Themes/marketplace
