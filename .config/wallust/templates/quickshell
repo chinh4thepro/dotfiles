@@ -4,7 +4,7 @@ import QtQuick
 import Quickshell
 
 Singleton {
-    readonly property color backgrounda: "{{background}}{{alpha | alpha_hexa}}"
+    readonly property color backgrounda: "{{background | hexa}}"
 
     readonly property color background: "{{background}}"
     readonly property color foreground: "{{foreground}}"
@@ -27,4 +27,6 @@ Singleton {
     readonly property color color13: "{{color13}}"
     readonly property color color14: "{{color14}}"
     readonly property color color15: "{{color15}}"
+
+    readonly property string wallpaperPath: "{{wallpaper}}"
 }

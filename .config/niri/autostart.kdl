@@ -1,3 +1,4 @@
 spawn-sh-at-startup "dbus-update-activation-environment --all"
 spawn-sh-at-startup "~/.config/scripts/security"
-spawn-at-startup "waybar"
+spawn-sh-at-startup "waypaper --restore"
+spawn-sh-at-startup "qs"
