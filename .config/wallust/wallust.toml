@@ -33,5 +33,6 @@ gtk4 = { template = 'gtk', target = '~/.config/gtk-4.0/gtk.css' }
 # hyprpaper = { template = 'hyprpaper', target = '~/.config/hypr/hyprpaper.conf' }
 niri = { template = 'niri', target = '~/.config/niri/colors.kdl' }
 quickshell = { template = 'quickshell', target = '~/.config/quickshell/globals/Colors.qml' }
+spotify = { template = 'spotify', target = '~/.config/spicetify/Themes/text/color.ini' }
 zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
 zed = { template = 'zed', target = '~/.config/zed/themes/wallust.json' }
