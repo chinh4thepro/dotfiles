@@ -57,7 +57,7 @@ body {
 
     /* transparency/blur options */
     /* NOTE: TO USE TRANSPARENCY/BLUR, YOU MUST HAVE TRANSPARENT BG COLORS. FOR EXAMPLE: --bg-4: hsla(220, 15%, 10%, 0.7); */
-    --transparency-tweaks: on; /* off: no changes, on: remove some elements for better transparency */
+    --transparency-tweaks: off; /* off: no changes, on: remove some elements for better transparency */
     --remove-bg-layer: off; /* off: no changes, on: remove the base --bg-3 layer for use with window transparency (WILL OVERRIDE BACKGROUND IMAGE) */
     --panel-blur: off; /* off: no changes, on: blur the background of panels */
     --blur-amount: 12px; /* amount of blur */
@@ -96,7 +96,7 @@ body {
     --bg-1: {{background | darken(0.25)}}; /* dark buttons when clicked */
     --bg-2: {{background | darken(0.15)}}; /* dark buttons */
     --bg-3: {{background | darken(0.1)}}; /* spacing, secondary elements */
-    --bg-4: {{background | hexa}}; /* main background color */
+    --bg-4: {{background}}; /* main background color */
     --hover: hsla(220, 20%, 50%, 0.1); /* channels and buttons when hovered */
     --active: hsla(220, 20%, 50%, 0.2); /* channels and buttons when clicked or selected */
     --active-2: hsla(220, 20%, 50%, 0.3); /* extra state for transparent buttons */
