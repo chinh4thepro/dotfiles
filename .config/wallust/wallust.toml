@@ -29,8 +29,8 @@ discord = { template = 'discord', target = '~/.config/equibop/themes/wallust.css
 foot = { template = 'foot', target = '~/.config/foot/colors.ini' }
 gtk3 = { template = 'gtk', target = '~/.config/gtk-3.0/gtk.css' }
 gtk4 = { template = 'gtk', target = '~/.config/gtk-4.0/gtk.css' }
-hyprland = { template = 'hyprland', target = '~/.config/hypr/colors.conf' }
-hyprpaper = { template = 'hyprpaper', target = '~/.config/hypr/hyprpaper.conf' }
+# hyprland = { template = 'hyprland', target = '~/.config/hypr/colors.conf' }
+# hyprpaper = { template = 'hyprpaper', target = '~/.config/hypr/hyprpaper.conf' }
 niri = { template = 'niri', target = '~/.config/niri/colors.kdl' }
 quickshell = { template = 'quickshell', target = '~/.config/quickshell/globals/Colors.qml' }
 zathura = { template = 'zathura', target = '~/.config/zathura/zathurarc' }
