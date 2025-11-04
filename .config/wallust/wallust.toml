@@ -27,6 +27,7 @@ alpha = 75
 [templates]
 discord = { template = 'discord', target = '~/.config/equibop/themes/wallust.css' }
 foot = { template = 'foot', target = '~/.config/foot/colors.ini' }
+ghostty = { template = 'ghostty', target = '~/.config/ghostty/themes/wallust' }
 gtk3 = { template = 'gtk', target = '~/.config/gtk-3.0/gtk.css' }
 gtk4 = { template = 'gtk', target = '~/.config/gtk-4.0/gtk.css' }
 # hyprland = { template = 'hyprland', target = '~/.config/hypr/colors.conf' }

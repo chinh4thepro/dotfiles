@@ -1,0 +1,33 @@
+window-decoration = false
+window-inherit-working-directory = true
+window-theme = dark
+window-save-state = always
+maximize
+
+mouse-hide-while-typing = true
+copy-on-select = false
+
+background = #1A1514
+background-opacity = 0.75
+
+foreground = #ECE7E3
+selection-foreground = #ECE7E3
+selection-background = #1A1514
+cursor-color = #849094
+
+palette = 0 = #45403E
+palette = 1 = #524541
+palette = 2 = #4A5A61
+palette = 3 = #836E68
+palette = 4 = #7C8689
+palette = 5 = #B5723A
+palette = 6 = #978C84
+palette = 7 = #DCD5CF
+palette = 8 = #9A9591
+palette = 9 = #5B4943
+palette = 10 = #4F656E
+palette = 11 = #967970
+palette = 12 = #738388
+palette = 13 = #D66102
+palette = 14 = #C9BBB0
+palette = 15 = #DCD5CF

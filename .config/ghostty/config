@@ -1,0 +1,8 @@
+theme = wallust
+
+font-family = "Fantasque Sans M NerdFont"
+font-size = 10
+
+window-padding-x = 10
+window-padding-y = 10
+window-padding-balance = true
